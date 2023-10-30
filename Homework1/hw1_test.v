@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 module test ;
     reg [7:0] d;
-    wire [2:0] s;
+    wire [3:0] s;
     highnum highnum1(d,s);
 
     initial begin

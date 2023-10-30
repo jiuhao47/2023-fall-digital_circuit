@@ -1,5 +1,5 @@
 $date
-	Sun Oct 29 14:17:04 2023
+	Mon Oct 30 23:16:59 2023
 $end
 $version
 	Icarus Verilog
@@ -8,11 +8,11 @@ $timescale
 	1ps
 $end
 $scope module test $end
-$var wire 3 ! s [2:0] $end
+$var wire 4 ! s [3:0] $end
 $var reg 8 " d [7:0] $end
 $scope module highnum1 $end
 $var wire 8 # d [7:0] $end
-$var wire 3 $ s [2:0] $end
+$var wire 4 $ s [3:0] $end
 $var reg 4 % mid [3:0] $end
 $upscope $end
 $upscope $end
@@ -32,10 +32,14 @@ b10 %
 b100100 "
 b100100 #
 #20000
+b10 !
+b10 $
 b10 %
 b10000001 "
 b10000001 #
 #30000
+b10 !
+b10 $
 b10 %
 b1001 "
 b1001 #
@@ -58,6 +62,8 @@ b100 %
 b10001101 "
 b10001101 #
 #70000
+b100 !
+b100 $
 b100 %
 b1100101 "
 b1100101 #
@@ -86,6 +92,8 @@ b101 %
 b1110110 "
 b1110110 #
 #120000
+b101 !
+b101 $
 b101 %
 b111101 "
 b111101 #
