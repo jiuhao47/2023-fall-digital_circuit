@@ -11,3 +11,6 @@ module RS_flip_flop (input s,input r,input clk,output q,output qb);
             q = ~qb;
         end
 endmodule
+
+//高电平触发RS触发器
+//Q^*=S+\bar{R}Q;
