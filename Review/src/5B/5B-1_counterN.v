@@ -11,3 +11,4 @@ module counterN(
     end
     assign c=q==num-1;
 endmodule
+//PPT 第四页，缺省N
