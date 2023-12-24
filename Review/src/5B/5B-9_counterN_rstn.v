@@ -11,5 +11,6 @@ module counterN(
         else q<=q+1;
     end
     assign c=q==num-1;
+    assign q=4'b0000;
 endmodule
 //带有复位信号的
