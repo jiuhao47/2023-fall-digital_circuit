@@ -83,7 +83,7 @@ module  test;
     initial begin
         $dumpfile("random_Arb4_test.vcd");
         $dumpvars(0);
-        #40000 
+        #400000 
         $display($stime, ": port 0 is answered %d times.\n",n0);
         $display($stime, ": port 1 is answered %d times.\n",n1);
         $display($stime, ": port 2 is answered %d times.\n",n2);
